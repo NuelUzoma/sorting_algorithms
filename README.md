@@ -9,9 +9,9 @@ This project is meant to be done by groups of two students. Each group of two sh
 * How to select the best sorting algorithm for a given input
 * What is a stable sorting algorithm
 
-**Requirements
+**Requirements**
 
-General**
+**General**
 
 * Allowed editors: vi, vim, emacs
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -27,23 +27,24 @@ General**
 * All your header files should be include guarded
 * A list/array does not need to be sorted if its size is less than 2.
 
-**GitHub
+**GitHub**
 
-There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.**
+**There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.**
 
 **More Info**
 **Data Structure and Functions**
 For this project you are given the following print_array, and print_list functions:
 
 #include <stdlib.h>
+
 #include <stdio.h>
 
 /**
  * print_array - Prints an array of integers
- *
  * @array: The array to be printed
  * @size: Number of elements in @array
  */
+
 void print_array(const int *array, size_t size)
 {
     size_t i;
@@ -59,7 +60,9 @@ void print_array(const int *array, size_t size)
     printf("\n");
 }
 
+
 #include <stdio.h>
+
 #include "sort.h"
 
 /**
@@ -67,10 +70,11 @@ void print_array(const int *array, size_t size)
  *
  * @list: The list to be printed
  */
+
 void print_list(const listint_t *list)
 {
     int i;
-
+    
     i = 0;
     while (list)
     {
