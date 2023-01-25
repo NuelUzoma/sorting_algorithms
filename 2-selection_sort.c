@@ -27,11 +27,7 @@ void selection_sort(int *array, size_t size)
 			temp = array[i];
 			array[i] = array[jMin];
 			array[jMin] = temp;
-			for (j = 0; j < size; j++)
-			{
-				printf("%d, ", array[j]);
-			}
-			printf("\n");
+			print_array(array, size);
 		}
 	}
 }
